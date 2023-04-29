@@ -2,8 +2,17 @@
   "name": "Any Color",
   "description": "A system-wide color picking utility for Windows that enables you to pick colors from the screen and automatically copies the default value to your clipboard.",
   "version": "1.0.0",
-  "manifest_version": "3",
+  "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/picker_16.png",
+    "32": "/images/picker_32.png",
+    "48": "/images/picker_48.png"
   }
 }
