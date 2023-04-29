@@ -15,24 +15,22 @@ btn.addEventListener('click', async () => {
 
       function: pickColor,
     },
-    async (injectionResults) => {
-      let [data] = injectionResults
 
-      console.log(injectionResults)
+    async (result) => {
+      let [data] = result
 
       if (data.result) {
         let color = data.result.sRGBHex
 
         colorPick.style.backgroundColor = color
+        colorValue.innerText = color
         messageBox.innerText = 'color code copy in your clipboard'
 
         try {
           await navigator.clipboard.writeText(color)
         } catch (error) {
-          color.log(error)
+          console.log(error)
         }
-
-        colorValue.innerText = color
       }
     },
   )
