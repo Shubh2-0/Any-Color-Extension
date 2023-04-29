@@ -1,0 +1,9 @@
+{
+  "name": "Any Color",
+  "description": "A system-wide color picking utility for Windows that enables you to pick colors from the screen and automatically copies the default value to your clipboard.",
+  "version": "1.0.0",
+  "manifest_version": "3",
+  "background": {
+    "service_worker": "background.js"
+  }
+}
