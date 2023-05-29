@@ -1,7 +1,7 @@
 # 🌈 Any Color - A Powerful Color-Picking Tool for Windows Users
 
 Any Color is a comprehensive system-wide color-picking utility designed exclusively for Windows users. This feature-rich Chrome extension enables you to effortlessly capture colors from any part of your screen, empowering you to quickly access and utilize them in your various projects. With just a click of a button, this automatically copies the corresponding HEX code to your clipboard, providing instant accessibility for further use.
-
+ 
 ## Key Features
 
 1. 🔍 **Seamless Color Access**: Accessing colors is a breeze. Say goodbye to the hassle of searching for color codes or manually inputting them. Simply capture the desired color directly from your screen, enabling swift and convenient access whenever you need it.
