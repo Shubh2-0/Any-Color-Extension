@@ -1,0 +1,18 @@
+{
+  "name": "Any Color",
+  "description": "A system-wide color picking utility for Windows that enables you to pick colors from the screen",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/picker_16.png",
+    "32": "/images/picker_32.png",
+    "48": "/images/picker_48.png"
+  }
+}
